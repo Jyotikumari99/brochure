@@ -261,4 +261,12 @@ header ul li a {
     background-color: #017143;
     clip-path: circle(500px at right 900px);
   }
+  .content .textBox h2 span {
+    color: #ffffff;
+    
+  }
+  .content .textBox h2 {
+    color: #017143;
+    
+  }
 }
