@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
 </head>
 
 <body>
@@ -34,13 +35,13 @@
         </div>
           
           <div class="imgBox">
-            <img src="img-1.png" alt="" srcset="" class="starbucks"  >
+            <img src="img-1.png"  class="starbucks" width="300px">
           </div>
     </div>
     <ul class="thumb">
-      <li><img src="img-1.png" alt="" srcset=""></li>
-      <li><img src="img-6.png" alt="" srcset=""></li>
-      <li><img src="img-7.png" alt="" srcset=""></li>
+      <li><img src="img-1.png"  onclick="imgSlider('img-1.png');changeCircleColor('#017143')"></li>
+      <li><img src="img-6.png"  onclick="imgSlider('img-6.png');changeCircleColor('#eb7495')"></li>
+      <li><img src="img-7.png"  onclick="imgSlider('img-7.png');changeCircleColor('#d752b1')"></li>
     </ul>
     <ul class="sci">
       <li><a href="#"><img src="facebook.png" alt="" srcset=""></a></li>
@@ -48,7 +49,7 @@
       <li><a href="#"><img src="instagram.png" alt="" srcset=""></a></li>
     </ul>
   </section>
-  <script src="app.js"></script>
+ 
 </body>
 
 </html>
