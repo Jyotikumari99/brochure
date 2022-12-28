@@ -152,7 +152,8 @@ header ul li a {
   }
   header .logo {
     position: relative;
-    max-width: 60px;
+    width: 60px;
+    height: 60px;
   }
   header ul {
     position: fixed;
@@ -258,6 +259,6 @@ header ul li a {
     width: 100%;
     height: 100%;
     background-color: #017143;
-    clip-path: circle(500px at right 820px);
+    clip-path: circle(500px at right 900px);
   }
 }
