@@ -146,7 +146,7 @@ header ul li a {
     padding: 40px;
     padding-bottom: 140px;
   }
- 
+
   header {
     padding: 20px 40px;
   }
@@ -170,7 +170,7 @@ header ul li a {
     visibility: hidden;
     opacity: 0;
   }
-  header ul.active{
+  header ul.active {
     visibility: visible;
     opacity: 1;
   }
@@ -208,18 +208,15 @@ header ul li a {
     background-size: 25px;
     background-repeat: no-repeat;
     filter: invert(1);
-
   }
-  .content{
-    
+  .content {
     flex-direction: column;
     margin-top: 80px;
   }
-  .content .textBox{
+  .content .textBox {
     position: relative;
     max-width: 100%;
     padding-right: 20px;
-
   }
   .content .textBox h2 {
     font-size: 3em;
@@ -228,20 +225,20 @@ header ul li a {
     font-size: 14px;
     padding: 8px 15px;
   }
-  .content .imgBox{
+  .content .imgBox {
     width: 100%;
     display: flex;
     padding-right: 0;
     margin-top: 50px;
     justify-content: center;
   }
-  .content .imgBox img{
+  .content .imgBox img {
     max-width: 150px;
   }
-  .thumb li img{
+  .thumb li img {
     max-width: 30px;
   }
-  .sci{
+  .sci {
     position: absolute;
     top: 50%;
     right: 0;
@@ -263,10 +260,14 @@ header ul li a {
   }
   .content .textBox h2 span {
     color: #ffffff;
-    
   }
   .content .textBox h2 {
     color: #017143;
+  }
+  .content .textBox a {
     
+  background: #fff;
+  color: #017143;
+  
   }
 }
